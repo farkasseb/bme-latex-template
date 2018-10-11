@@ -1,4 +1,4 @@
-# Környezet beállítása macOS-en (macOS Mojave 10.14 (18A391))
+# Környezet beállítása macOS-en (*macOS Mojave 10.14 (18A391)*)
 
 ## LaTeX telepítése
 1. [MacTeX](http://www.tug.org/mactex/mactex-download.html) letöltése és telepítése
