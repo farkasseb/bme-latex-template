@@ -29,5 +29,8 @@ Default Compiler: **`txs:///xelatex`**
 ### Editor
 Font Family: **Menlo**
 
+### Completion
+![](img/completion_checkmarks.png)
+
 ### Language Checking
 Default Language: **hu_HU**
