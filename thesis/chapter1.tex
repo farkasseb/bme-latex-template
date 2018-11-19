@@ -4,7 +4,7 @@ Szinten mindenhez lehet opcionálisan \textit{label}t hozzáadni, majd utána en
 
 \section{Az \textit{Objective-C} nyelv rövid története}
 \label{sect:objc-c-short-history}
-Hivatkozhatunk könyvekre, cikkekre vagy akár weboldalakra is.\cite{UncleBob} Kép berakására ezt a snippetet ajánlom. \figAref{git-flow} képen a git-flow workflow látható.
+Hivatkozhatunk könyvekre, cikkekre vagy akár weboldalakra is.\cite{UncleBob} Kép berakására ezt a \enquote{snippetet} ajánlom. \figAref{git-flow} képen a git-flow workflow látható.
 
 \begin{figure}[H]
   \centering
@@ -16,7 +16,7 @@ Hivatkozhatunk könyvekre, cikkekre vagy akár weboldalakra is.\cite{UncleBob} K
 Mindenféle kódot is berakhatunk, nem mindig tökéletes eredménnyel.
 
 \begin{otherlanguage}{english}
-  \begin{code}{swift}{title={A kódrészlet "címe"}, label={lst:drop-proposal}}
+  \begin{code}{swift}{title={A kódrészlet  \enquote{címe}}, label={lst:drop-proposal}}
 func collectionView(_ collectionView: UICollectionView, dropSessionDidUpdate session: UIDropSession, withDestinationIndexPath destinationIndexPath: IndexPath?) -> UICollectionViewDropProposal {
   if collectionView.hasActiveDrag {
     return UICollectionViewDropProposal(operation: .move, intent: .insertAtDestinationIndexPath)

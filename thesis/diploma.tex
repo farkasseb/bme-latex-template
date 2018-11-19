@@ -22,6 +22,7 @@
 \usepackage{tabularx}                   % dinamikus szélességű táblázatért
 \usepackage[fleqn]{amsmath}             
 \usepackage{tcolorbox}                  % http://tex.stackexchange.com/questions/305387/adding-a-caption-to-a-tcolorbox-tcblisting
+\usepackage[autostyle]{csquotes}        % Magyar idézőjelekért.
 
 %--------------------------------------------------------------------------------------
 % Main variables
@@ -153,6 +154,16 @@ aboveskip=10pt}
 
 \renewcommand{\captionlabelfont}{\small\bf}
 \renewcommand{\captionfont}{\footnotesize\it}
+
+%--------------------------------------------------------------------------------------
+%   Setup csquotes
+%--------------------------------------------------------------------------------------
+\DeclareQuoteStyle{magyar}
+{\quotedblbase}
+{\textquotedblright}
+[.05em]
+{\guillemotright}
+{\guillemotleft}
 
 %--------------------------------------------------------------------------------------
 % Table of contents and the main text
